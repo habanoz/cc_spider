@@ -1,0 +1,1 @@
+python src/cccd/cdx-index-client.py -c all https://www.aa.com.tr/tr/* -p 1 --max-retries 10 -j -z -d url_indices/aa

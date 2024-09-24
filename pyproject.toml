@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cccd" 
+version = "1.0"
+# requires-python = ">= 3.10"
+dependencies = [
+  'fastwarc',
+  'sqlalchemy',
+  'future',
+  'aiohttp',
+  'tenacity',
+  'pandas',
+  'requests',
+]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
