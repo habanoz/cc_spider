@@ -4,8 +4,6 @@ from datatrove.pipeline.extractors import Trafilatura
 from datatrove.pipeline.filters import (
     GopherQualityFilter,
     GopherRepetitionFilter,
-    NewsFilter,
-    URLFilter,
     FineWebQualityFilter
 )
 from datatrove.pipeline.readers import JsonlReader
